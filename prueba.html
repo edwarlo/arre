@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<style>
+    .contenedor-estrategias {
+        width: 100%;
+        border: 1px solid;
+        padding: 1%;
+    }
+
+    .titulo-estrategias {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contenedor-contenido {
+        display: flex;
+        justify-content: center;
+    }
+    .contenido {
+        background: #1D3A6C;
+        border: 1px solid #1D3A6C;
+        border-radius: 10px;
+        width: 220px;
+        height: 150px;
+        -webkit-box-shadow: 0px 0px 15px -3px rgba(148,148,148,1);
+        -moz-box-shadow: 0px 0px 15px -3px rgba(148,148,148,1);
+        box-shadow: 0px 0px 15px -3px rgba(148,148,148,1);
+        margin-left: 2.5%;
+        transition: .3s;
+    }
+
+    .contenido:hover {
+        background: #fff;
+        border: 1px solid #fff;
+        transition: .2s;
+    }
+
+    .contenido .texto-titulo {
+        text-align: center;
+        color: #fff;        
+    }
+
+    .contenido:hover .texto-titulo {
+        color: #1D3A6C;
+    }
+
+    .contenido .texto-parrafo {
+        font-size: 14px;
+        color: #8a8a8a;
+        font-weight: 300;
+        padding: 0px 33px;
+        text-align: justify;
+        display: none;
+        transition: .4s;
+    }
+
+    .contenido:hover .texto-parrafo {
+        display: block;
+    }
+
+    .texto-img {
+        text-align: center;
+        color: #fff;
+        display: block;
+    }
+
+    .contenido:hover .texto-img {
+        display: none;
+    }
+
+    .texto-img ion-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+</style>
+
+<div class="contenedor-estrategias">
+    <div class="titulo-estrategias">
+        <h3>Estrategias de Aprendizaje</h3>
+    </div>
+    <br>
+    <div class="contenedor-contenido">
+        <div class="contenido">
+            <p class="texto-titulo">Rutas de formación</p>
+            <p></p>
+            <p class="texto-parrafo">Rutas de aprendizaje perteneciente a un área específica.</p>
+            <p class="texto-img"><span><ion-icon name="desktop-outline"></ion-icon></span></p>
+        </div>
+        
+        <div class="contenido">
+            <p class="texto-titulo">Foros colaborativos</p>
+            <p></p>
+            <p class="texto-parrafo">lantea dudas, inquietudes, o comentarios que generen valor para los cursos.</p>
+            <p class="texto-img"><span><ion-icon name="desktop-outline"></ion-icon></span></p>
+        </div>
+        <div class="contenido">
+            <p class="texto-titulo">IzyClass</p>
+            <p></p>
+            <p class="texto-parrafo">Clases en vivo para aclarar dudas y desarrollar ejercicios prácticos.</p>
+            
+            <p class="texto-img"><span><ion-icon name="desktop-outline"></ion-icon></span></p>
+        </div>
+        <div class="contenido">
+            <p class="texto-titulo">Retos prácticos</p>
+            <p></p>
+            <p class="texto-parrafo">Al final de los cursos puedes encontrar desafios para avalar los conocimientos adquiridos.</p>
+            <p class="texto-img"><span><ion-icon name="desktop-outline"></ion-icon></span></p>
+        </div>
+    </div>    
+</div>
